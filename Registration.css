@@ -1,0 +1,218 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #E96D6D;
+    border-radius: 20px;
+}
+
+.nav-1{
+    width: 100%;
+    height: 42.72px;
+    background: #FFF0F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px 0px 10px;
+} 
+body{
+    font-family: "open sans";
+    background-color: #F8F8F8;
+}
+@font-face {
+    font-family: "dosis-open-sans";
+    src: url("/Fonts/Dosis-Regular.ttf");
+}
+@font-face {
+    font-family: "open-sans";
+    src: url("/Fonts/OpenSans-Light.ttf");
+}
+.logo img {
+    cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.li-1 li{
+    font-family: open-sans;
+    font-weight: bold;
+}
+.li-2 li{
+    font-family: open-sans;
+    font-weight: bold;
+    margin-left: 30px;
+}
+li{
+    font-size: 16px;
+    font-weight: 300;
+    display: inline;
+    margin-left: 3px;
+    cursor: pointer;
+}
+li:hover {
+    color: #EA6D6D;
+}
+.nav-2{
+    height: 109px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+}
+.nav-3 li{
+    font-size: 26px;
+    margin-left: 25px;
+    font-family: dosis;
+}
+input{
+    margin-top: 8px;
+}
+input[type="search"] {
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: 1.3vw;
+    border: none;
+    background-color: #F8F8F8;
+}
+input[type="search"]:hover {
+    border: 2px solid  #EA6D6D;;
+}
+i{
+    font-size: 16px;
+    margin-left: 25px;
+}
+i:hover{
+    color: #E96D6D;
+}
+.search i {
+    font-size: 20px;
+    color: #E96D6D;
+}
+#search2{
+    background-color: white;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.form {
+    width: 380px;
+    height: 480px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 25px 0px 0px 25px;
+    margin-left: 35%;
+}
+h1 {
+    font-family: "open-sans";
+    font-weight: 500;
+}
+label {
+    font-size: 16px;
+    font-family: "dosis-open-sans";
+    display: block;
+}
+input[type="text"] {
+    width: 325px;
+    height: 38px;
+    border-radius: 10px;
+    border: 0.5px solid #080E141A;
+    background-color: #080E141A;
+}
+input[type="email"] {
+    width: 325px;
+    height: 38px;
+    border-radius: 10px;
+    border: 0.5px solid #080E141A;
+    background-color: #080E141A;
+}
+input[type="password"] {
+    width: 325px;
+    height: 38px;
+    border-radius: 10px;
+    border: 0.5px solid #080E141A;
+    background-color: #080E141A;
+}
+button {
+    width: 120px;
+    height: 30px;
+    font-family: dosis;
+    font-size: 18px;
+    background-color: #E96D6D;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+.payments{
+    width: 100%;
+    height: 110px;
+    background-color: #FDF0F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+}
+h6{
+    font-size: 22px;
+    font-family: dosis;
+}
+.footer {
+    width: 100%;
+    height: 323.39px;
+    background-color: white;
+    padding: 30px 25px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.line ul li {
+    display: block;
+    font-family: dosis;
+    font-size: 22px;
+    margin: 15px 0px 0px;
+}
+.line p {
+    font-size: 18px;
+    font-family: dosis;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.end-text {
+    width: 100%;
+    height: 77px;
+    background-color: white;
+}
+.end-text h6 {
+    font-weight: 400;
+    text-align: center;
+}
+.end-text p {
+    color: black;
+    margin: 0px;
+    text-align: center;
+    font-family: dosis;
+}
+.line p {
+    color: black;
+    margin: 0px;
+}
+.line i {
+    margin: 0px;
+    font-size: 20px;
+}
